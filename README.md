@@ -1,7 +1,9 @@
 🤖 SmartResume Analyzer
 
 An AI-powered ATS (Applicant Tracking System) resume checker built with Streamlit and Google Gemini. This tool helps job seekers optimize their resumes by evaluating them against job descriptions, identifying missing keywords, and providing actionable improvement suggestions.
+
 ✨ Features
+
 ATS Evaluation: Analyzes resumes against job descriptions to provide a percentage match score.
 Missing Keywords Identification: Highlights keywords from the job description that are absent in the resume.
 Profile Summary Generation: Provides an AI-generated summary of the resume's alignment with the job description.
@@ -11,7 +13,9 @@ Evaluation History: Maintains a session-based history of analyses, with options 
 Resume Comparison: Allows users to upload multiple resumes and compare their JD match and missing keywords.
 PDF Text Extraction: Extracts text efficiently from uploaded PDF resumes.
 Interactive UI: User-friendly interface built with Streamlit for a seamless experience.
+
 🚀 Technologies Used
+
 Python
 Streamlit: For building the interactive web application.
 Google Generative AI (Gemini 2.5 Flash): The Large Language Model (LLM) used for resume analysis, keyword identification, and suggestion generation.
@@ -19,8 +23,9 @@ PyPDF2: For extracting text content from PDF files.
 Matplotlib: For creating the radar chart visualization.
 python-dotenv: For secure management of API keys.
 pickle: For saving and loading analysis history.
+
 📸 Screenshots
-(Note: Replace these placeholders with actual screenshots of your running application. If you place them in a screenshots folder, update the paths like screenshots/your_screenshot_name.png)
+
 Main Interface:
 A screenshot showing the primary input fields for Job Description and Resume Upload.
 Evaluation Results:
@@ -33,11 +38,10 @@ Follow these steps to set up and run the SmartResume Analyzer on your local mach
 Python 3.8+: Ensure you have Python installed.
 Google Gemini API Key: Obtain an API key from Google AI Studio.
 2. Clone the Repository
-git clone https://github.com/your-username/smart-resume-analyzer.git
+git clone https://github.com/Vanshika300/smart-resume-analyzer.git
 cd smart-resume-analyzer
 
 
-(Replace your-username with your actual GitHub username.)
 3. Configure API Key
 Create a file named .env in the root directory of your project (the same directory as resume_analyzer.py). Add your Google Gemini API key to it:
 GOOGLE_API_KEY="YOUR_ACTUAL_GOOGLE_GEMINI_API_KEY"
